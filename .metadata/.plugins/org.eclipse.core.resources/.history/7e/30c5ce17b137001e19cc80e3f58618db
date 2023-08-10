@@ -1,0 +1,39 @@
+package desafio_condicional;
+import java.util.Scanner;
+import java.util.Locale;
+public class estrutura_condicional {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		String line;
+		double salario,servico,capital,medico,educacionais;
+		double impostoSalario,impostoServicos,impostoCapital;
+		double maximoDedutivel,gastoDedutivel;
+		double impostoBrutoTotal,abatimento, impostoDevido;
+		
+		System.out.printf("Renda anual com salário:");
+		salario = sc.nextDouble();
+		System.out.printf("Renda anual com prestação de serviço:");
+		servico = sc.nextDouble();
+		System.out.printf("Renda anual com ganho de capital:");
+		capital = sc.nextDouble();
+		System.out.printf("Gastos médicos:");	
+		medico = sc.nextDouble();
+		System.out.printf("Gastos educacionais:");	
+		educacionais = sc.nextDouble();
+		sc.nextLine();
+		line=("\r\n");
+		System.out.println("RELATÓRIO DE IMPOSTO DE RENDA \r\n");
+		System.out.println("CONSOLIDADO DE RENDA:");
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

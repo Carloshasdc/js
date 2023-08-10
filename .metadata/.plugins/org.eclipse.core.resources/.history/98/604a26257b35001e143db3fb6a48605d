@@ -1,0 +1,28 @@
+package estrutura_sequencial;
+
+import java.util.Scanner;
+
+
+public class problemas {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		double largura;
+		double comprimento;
+		double metro;
+		
+		largura = sc.nextDouble();
+		comprimento = sc.nextDouble();
+		metro = sc.nextDouble();
+		System.out.println("Digite a largura do terreno:" + largura);
+		System.out.println("Digite o comprimento do terreno:" + comprimento);
+		System.out.println("Digite o valor do metro quadrado:" + metro);
+		
+		
+		sc.close();
+
+	}
+
+}

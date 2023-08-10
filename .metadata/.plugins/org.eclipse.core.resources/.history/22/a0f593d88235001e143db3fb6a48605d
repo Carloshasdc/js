@@ -1,0 +1,24 @@
+package estrutura_sequencial;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Problema_retangulo {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+	double base;
+	double altura;
+	double area;
+	double perimetro;
+	double diagonal;
+	
+	System.out.printf("Base do retangulo:");
+	base = sc.nextDouble();
+	
+	
+	sc.close();
+
+	}
+
+}
